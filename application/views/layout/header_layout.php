@@ -12,10 +12,8 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="<?=site_url("/")?>">Home</a></li>
             <li><a href="<?=site_url("team")?>">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="<?=site_url("login")?>">Login</a></li>
+            <li><a href="<?=site_url("dashboard")?>">Dashboard</a></li>
           </ul>
         </div><!--/.nav-collapse -->
-		  
-		  
       </div>
-
