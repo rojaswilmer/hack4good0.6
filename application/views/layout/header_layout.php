@@ -15,5 +15,6 @@
             <li><a href="<?=site_url("login")?>">Login</a></li>
             <li><a href="<?=site_url("dashboard")?>">Dashboard</a></li>
           </ul>
+          <button class='facebook-login'>Login with Facebook</button>
         </div><!--/.nav-collapse -->
       </div>

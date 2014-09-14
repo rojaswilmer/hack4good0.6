@@ -31,5 +31,12 @@
 	<script src="<?php echo base_url();?>public/js/L.Map.Sync.js"></script>
 	<script src="<?php echo base_url();?>public/js/map.js"></script>
 	<script src="<?php echo base_url();?>public/js/hack4good.js"></script>
+    <script src="//d3f5pyioow99x0.cloudfront.net/0.8/hull.js"></script>
+<script type='text/javascript'>
+Hull.init({
+  "appId": "54144f6f229b471377001925",
+  "orgUrl": "https://hack4good-dublin.hullapp.io"
+});
+</script>
 </body>
 </html>
