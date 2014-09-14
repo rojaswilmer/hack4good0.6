@@ -1,4 +1,4 @@
-<div class="col-lg-9 {page_class}">
+<div class="col-lg-9 {page_class}" style="margin-bottom: 10px;">
     <h1>Picture from: SUMATRA, INDONESIA</h1>
     <div class="pull-left">
         <h1 class="previous-btn btn btn-default">Previous</h1>

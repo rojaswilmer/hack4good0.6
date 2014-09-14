@@ -5,10 +5,5 @@
           <div class="col-lg-4"><button type="button" class="btn btn-default btn-circle btn-xl">50</i></button></div>
           <div class="col-lg-4"><button type="button" class="btn btn-default btn-circle btn-xl">99</i></button></div>
       </div>
-
-      <div class="cleafix"></div>
-
-      asd
-
   </div>
 </div>
