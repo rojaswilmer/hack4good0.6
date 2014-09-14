@@ -28,28 +28,9 @@
 	<script src="<?php echo base_url();?>public/js/plugins/jQuery-File-Upload/js/jquery.fileupload.js"></script>
 	<script src="<?php echo base_url();?>public/js/plugins/jQuery-File-Upload/js/jquery.fileupload-process.js"></script>
 	<script src="<?php echo base_url();?>public/js/plugins/jQuery-File-Upload/js/jquery.fileupload-image.js"></script>
-
 	<script src="<?php echo base_url();?>public/js/leaflet.js"></script>
 	<script src="<?php echo base_url();?>public/js/L.Map.Sync.js"></script>
 	<script src="<?php echo base_url();?>public/js/map.js"></script>
-
 	<script src="<?php echo base_url();?>public/js/hack4good.js"></script>
-	<script>
-window.fbAsyncInit = function() {
-	FB.init({
-	appId      : '343706585798052',
-	xfbml      : true,
-	version    : 'v2.1'
-	});
-};
-
-(function(d, s, id){
-	var js, fjs = d.getElementsByTagName(s)[0];
-	if (d.getElementById(id)) {return;}
-	js = d.createElement(s); js.id = id;
-	js.src = "//connect.facebook.net/en_US/sdk.js";
-	fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-</script>
 </body>
 </html>

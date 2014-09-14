@@ -27,10 +27,10 @@
     map2.sync(map1);
 
 //add images
-	var image1Url='tiles/img1.1.jpg',
+	var image1Url='public/data/maps/test/img1.1.jpg',
 	image1Bounds = [[59.3475,5.95081],[59.32522,5.98712]]; //northWest, southEast
 
-	var image2Url="tiles/img1.2.jpg",
+	var image2Url="public/data/maps/test/img1.2.jpg",
 	image2Bounds = [[59.3475,5.95081],[59.32522,5.98712]]; //northWest, southEast
 
 	L.imageOverlay(image1Url,image1Bounds).addTo(map1);
