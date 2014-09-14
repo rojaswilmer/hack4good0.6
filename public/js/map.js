@@ -1,9 +1,8 @@
 //TODO: maxBounds, or fitBounds + maxZoom
-
 //    var layer1 = L.tileLayer('http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=norges_grunnkart&zoom={z}&x={x}&y={y}');
 
 //    var layer2 = L.tileLayer('http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo2&zoom={z}&x={x}&y={y}', {
-//        attribution: '© Kartverket'
+//        attribution: 'Â© Kartverket'
 //    });
 
     var map1 = L.map('map1', {

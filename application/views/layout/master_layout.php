@@ -6,11 +6,10 @@
 <link href="<?php echo base_url();?>public/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
 <link href="<?php echo base_url();?>public/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo base_url();?>public/js/plugins/jQuery-File-Upload/css/jquery.fileupload.css">
-<link href="<?php echo base_url();?>public/css/leaflet.css" rel="stylesheet">
-<link href="<?php echo base_url();?>public/css/map.css" rel="stylesheet">
-
 <link href="<?php echo base_url();?>public/css/hack4gooddublin.css" rel="stylesheet">
 <link href="<?php echo base_url();?>public/css/style.css" rel="stylesheet">
+<link href="<?php echo base_url();?>public/css/leaflet.css" rel="stylesheet">
+<link href="<?php echo base_url();?>public/css/map.css" rel="stylesheet">
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 </head>
 <body class="socialh4ck-default">
@@ -19,8 +18,8 @@
 </div>
 
     <div class="container-fluid">
-		  {page_sidebar}
           {page_content}
+     	  {page_sidebar}
       </div>
     </div>
 	<script src="<?php echo base_url();?>public/js/plugins/jQuery-File-Upload/js/vendor/jquery.ui.widget.js"></script>
