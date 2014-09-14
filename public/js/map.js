@@ -1,12 +1,14 @@
 //TODO: maxBounds, or fitBounds + maxZoom
+
 //    var layer1 = L.tileLayer('http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=norges_grunnkart&zoom={z}&x={x}&y={y}');
 
 //    var layer2 = L.tileLayer('http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo2&zoom={z}&x={x}&y={y}', {
-//        attribution: 'Â© Kartverket'
+//        attribution: '© Kartverket'
 //    });
 
+
     var map1 = L.map('map1', {
-//        layers: [layer1],
+//      layers: [layer1],
         center: [59.336, 5.967],
         zoom: 15,
 //		maxBounds:[[59.3475,5.95081],[59.32522,5.98712]]
@@ -19,7 +21,7 @@
 //        layers: [layer2],
         center: [59.336, 5.967],
         zoom: 15,
-        zoomControl: false,
+        zoomControl: false
     });
 
     map1.sync(map2);
@@ -47,3 +49,8 @@
 		map1.on('click', onMapClick);
 		map2.on('click', onMapClick);
 //end of for development
+
+function loadMap(mapName){
+    $("#map1 .leaflet-image-layer").attr('src','public/data/maps/test/'+mapName+'.1.jpg');
+    $("#map2 .leaflet-image-layer").attr('src','public/data/maps/test/'+mapName+'.2.jpg');
+}
