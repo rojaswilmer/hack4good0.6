@@ -1,0 +1,17 @@
+{
+  "name": "hack4good",
+  "version": "0.0.1",
+  "description": "hack4good dublin",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "homepage": "www.socialh4ck.com/hack4good0.6",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
